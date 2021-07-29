@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 3-Amit Naik</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="product.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body id="body">
+    <div class="nav">
+        <h2><i class="far fa-futbol"></i>&nbsp;&nbsp;Total Sports</h2>
+        <h3><a href="#footer"><span class="ti1">Contact Us</span><span class="ti"><i class="fas fa-phone-alt"></i></span></a></h3>
+    </div>
+    <br>
+    <div id="blur">
+    <h2 style="text-align: center;">TRENDING PRODUCTS</h2><br>
+    <div class="products-list" >
+        <div class="product">
+            <img src="images/bat.jpg"><br><br>
+            <h3 >Woodworm Cricket Bat</h3>
+            <button  onclick="details(1)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/football.jpg"><br><br>
+            <h3>Adidas Football</h3>
+            <button onclick="details(2)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/shoes.jpg"><br><br>
+            <h3 >Reebok Sports Shoes</h3>
+            <button onclick="details(3)">View Details</button></a>
+        </div>
+    </div>
+    <br>
+    <h2 style="text-align: center;" >OTHER AVAILABLE PRODUCTS</h2><br>  
+    <div class="products-list" >
+        <div class="product">
+            <img src="images/chess.jpg"><br><br>
+            <h3>Wooden Chess Board</h3>
+            <button onclick="details(4)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/tt.jpeg"><br><br>
+            <h3 >Table Tennis</h3>
+            <button onclick="details(5)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/tennis.jpg"><br><br>
+            <h3 >Wilson Tennis Kit</h3>
+            <button onclick="details(6)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/racket.jpg"><br><br>
+            <h3 >Yonex Badminton Racket</h3>
+            <button onclick="details(7)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/skates.jpeg"><br><br>
+            <h3 >Roller skates</h3>
+            <button onclick="details(8)">View Details</button>
+        </div>
+        <div class="product">
+            <img src="images/kit.jpg"><br><br>
+            <h3 >SG Full Cricket Kit</h3>
+            <button onclick="details(9)">View Details</button>
+        </div>
+    </div>
+</div>
+    <br>    
+    <div class="footer" id="footer">
+        <div class="col1">
+            <h2 style="color:#fbff00;">TOTAL SPORTS</h2>
+            <hr>
+            <h3><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;Total Sports, Majiwada, Thane</h3>
+            <h3><i class="fas fa-phone-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;+977 9840059834</h3>
+            <h3><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;totalsports@gmail.com</h3>
+            <span class="col3">
+                <br>
+                <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                <i class="fab fa-twitter"></i>
+            </span>
+        </div>
+        <div class="col2">
+            <h2 style="color:#fbff00;">FOLLOW US</h2>
+            <hr>
+            <h3><i class="fab fa-facebook-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span>Facebook</span></h3>
+            <h3><i class="fab fa-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span>Instagram</span></h3>
+            <h3><i class="fab fa-twitter"></i>&nbsp;&nbsp;&nbsp;&nbsp;<span>Twitter</span></h3>
+        </div>
+        
+    </div>
+    
+    <!--  -->
+    <span class="details" id="1" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/bat.gif"></div>
+            <div class="p"style="margin-left: 25px; text-align: left;">
+                <h2>Woodworm Season Bat</h2>
+                <h3>Price: &#8377; 1500</h3>
+                <h3>Size Available: 5 6 7 SH</h3>
+                <button class="btn" onclick="off(1)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="2" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/football.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left;">
+                <h2>Adidas Football</h2>
+                <h3>Price: &#8377; 2500</h3>
+                <h3>Size Available: 4 5</h3>
+                <button class="btn" onclick="off(2)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="3" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/shoes.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; margin-top: 40px;">
+                <h2>Reebok Sports Shoes</h2>
+                <h3>Price: &#8377; 2300</h3>
+                <h3>Size Available: 8 9 10</h3>
+                <h3>Colors Available: <span style="color: aqua;"><i class="fas fa-square"></i></span>&nbsp;&nbsp;<span style="color: red;"><i class="fas fa-square"></i></span>
+                    &nbsp;&nbsp;<span style="color: black;"><i class="fas fa-square"></i></span>&nbsp;&nbsp;<span style="color: blue;"><i class="fas fa-square"></i></span></h3>
+                <button class="btn" onclick="off(3)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="4" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/chess.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>Chess Set</h2>
+                <h3>Price: &#8377; 1000</h3>
+                <button class="btn" onclick="off(4)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="5" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/tt1.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>Table Tennis Set</h2>
+                <h3>Price: &#8377; 1200</h3>
+                <button class="btn" onclick="off(5)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="6" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/tennis.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>Wilson Tennis Set</h2>
+                <h3>Price: &#8377; 2400</h3>
+                <button class="btn" onclick="off(6)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="7" style="display:none;">
+        <div class="det">
+            <div><img src="./gif/racket.gif"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>Yonex Badminton Racket</h2>
+                <h3>Price: &#8377; 900</h3>
+                <button class="btn" onclick="off(7)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="8" style="display:none;">
+        <div class="det">
+            <div><img src="./images/skates.jpeg"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>Roller Skate</h2>
+                <h3>Price: &#8377; 2200</h3>
+                <button class="btn" onclick="off(8)">Back</button>
+            </div>
+        </div>
+    </span>
+    <span class="details" id="9" style="display:none;">
+        <div class="det">
+            <div><img src="./images/kit.jpg"></div>
+            <div class="p" style="margin-left: 25px; text-align: left; ">
+                <h2>SG Full Cricket Kit</h2>
+                <h3>Price: &#8377; 5000</h3>
+                <button class="btn" onclick="off(9)">Back</button>
+            </div>
+        </div>
+    </span>
+    <!--  -->
+    <script type="text/javascript">
+       
+        function details() {
+            var x = document.getElementById(arguments[0]);
+            var y = document.getElementById('blur');
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                    y.style.opacity=0.2;
+                    x.style.opactiy=1;
+                }
+                else {
+                    x.style.display = "none";
+                    y.style.opacity=1;
+                }       
+
+            }
+        function off(){
+            var x = document.getElementById(arguments[0]);
+            var y = document.getElementById('blur');
+            x.style.display = "none";
+            y.style.opacity=1;
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<head>
+    <title>Task 3-Amit Naik</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="classmate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  
+</head>
+<body>
+    <h1 style="text-align: center; color: white;">IT ENGINEERING BATCH 2020-21</h1>
+<table align="center" id="blur">
+    <colgroup>
+        <col style="width:10%; text-align: center;">
+        <col style="width: 60%;">
+        <col style="width: 30%;">
+    </colgroup>
+    <tr>
+        <th><b>SR NO.</b></th>
+        <th><b>NAME</b></th>
+        <th></th> 
+    </tr>
+    <tr>
+        <td style="text-align: center;">1</td>
+        <td>Mahendra Singh Dhoni</td>
+        <td><button onclick="details(1)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">2</td>
+        <td>Virat Kohli</td>
+        <td><button onclick="details(2)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">3</td>
+        <td>Rohit Sharma</td>
+        <td><button onclick="details(3)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">4</td>
+        <td>Shikhar Dhawan</td>
+        <td><button onclick="details(4)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">5</td>
+        <td>Suresh Raina</td>
+        <td><button onclick="details(5)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">6</td>
+        <td>Gautham Gambhir</td>
+        <td><button onclick="details(6)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">7</td>
+        <td>Sachin Tendulkar</td>
+        <td><button onclick="details(7)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">8</td>
+        <td>Harbhajan Singh</td>
+        <td><button onclick="details(8)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">9</td>
+        <td>Yuvraj Singh</td>
+        <td><button onclick="details(9)">View Details</button></td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">10</td>
+        <td>Jasprit Bumrah</td>
+        <td><button onclick="details(10)">View Details</button></td>
+    </tr>
+</table>
+<span class="details" id="1" style="display:none;">
+    <div class="det">
+        <div><img src="./images/dhoni.jpg"></div>
+        <div class="p"style="margin-left: 40px; text-align: left;">
+            <h2>Mahendra Singh Dhoni</h2>
+            <h3>Age: 21</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 8769574543</h3>
+            <h3>Address: Dombivli</h3>
+            <h3>CGPA: 7.84</h3>
+            <button class="btn" onclick="off(1)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="2" style="display:none;">
+    <div class="det">
+        <div><img src="./images/kohl.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Virat Kohli</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 8769574543</h3>
+            <h3>Address: Thane</h3>
+            <h3>Grade: 8.55 CGPA</h3>
+            <button class="btn" onclick="off(2)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="3" style="display:none;">
+    <div class="det">
+        <div><img src="./images/rohit.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Rohit Sharma</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 7875443454</h3>
+            <h3>Address: Chembur</h3>
+            <h3>Grade: 8.93 CGPA</h3>
+            <button class="btn" onclick="off(3)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="4" style="display:none;">
+    <div class="det">
+        <div><img src="./images/shikhar.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Shikhar Dhawan</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 9898989898</h3>
+            <h3>Address: Dombivli</h3>
+            <h3>Grade: 8.74 CGPA</h3>
+            <button class="btn" onclick="off(4)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="5" style="display:none;">
+    <div class="det">
+        <div><img src="./images/suresh.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Suresh Raina</h2>
+            <h3>Age: 21</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 9898989898</h3>
+            <h3>Address: Parel</h3>
+            <h3>Grade: 9.43 CGPA</h3>
+            <button class="btn" onclick="off(5)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="6" style="display:none;">
+    <div class="det">
+        <div><img src="./images/gambhir.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Gautham Gambhir</h2>
+            <h3>Age: 21</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 8787878743</h3>
+            <h3>Address: Kharghar</h3>
+            <h3>Grade: 7.79 CGPA</h3>
+            <button class="btn" onclick="off(6)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="7" style="display:none;">
+    <div class="det">
+        <div><img src="./images/sachin.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Sachin Tendulkar</h2>
+            <h3>Age: 21</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 9988998866</h3>
+            <h3>Address: Seawoods</h3>
+            <h3>Grade: 9.91 CGPA</h3>
+            <button class="btn" onclick="off(7)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="8" style="display:none;">
+    <div class="det">
+        <div><img src="./images/harbhajan.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Harbhajan Singh</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 7335566779</h3>
+            <h3>Address: Panvel</h3>
+            <h3>Grade: 6.55 CGPA</h3>
+            <button class="btn" onclick="off(8)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="9" style="display:none;">
+    <div class="det">
+        <div><img src="./images/yuvi.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Yuvraj Singh</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 8899443993</h3>
+            <h3>Address: Airoli</h3>
+            <h3>Grade: 9.24 CGPA</h3>
+            <button class="btn" onclick="off(9)">Back</button>
+        </div>
+    </div>
+</span>
+<span class="details" id="10" style="display:none;">
+    <div class="det">
+        <div><img src="./images/bumrah.jpg"></div>
+        <div class="p" style="margin-left: 40px; text-align: left;">
+            <h2>Jasprit Bumrah</h2>
+            <h3>Age: 20</h3>
+            <h3>Branch: IT Engineering</h3>
+            <h3>Moble No.: 9966779977</h3>
+            <h3>Address: Nerul</h3>
+            <h3>Grade: 8.13 CGPA</h3>
+            <button class="btn" onclick="off(10)">Back</button>
+        </div>
+    </div>
+</span>
+<script type="text/javascript">
+       
+    function details() {
+        var x = document.getElementById(arguments[0]);
+        var y = document.getElementById('blur');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.opacity=0.2;
+                x.style.opactiy=1;
+            }
+            else {
+                x.style.display = "none";
+                y.style.opacity=1;
+            }       
+
+        }
+    function off(){
+        var x = document.getElementById(arguments[0]);
+        var y = document.getElementById('blur');
+        x.style.display = "none";
+        y.style.opacity=1;
+    }
+</script>
+</body>
+</html>

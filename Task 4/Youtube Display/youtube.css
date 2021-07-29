@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+}
+.row1,.row2,.row3{
+    display: grid;
+    grid-gap: 100px;
+    margin-top: 8vh;
+    justify-content: center;
+    width: 100%;
+}
+.row1{
+    margin-top: 6vh;
+    grid-template-columns: repeat(3,auto);
+}
+.row2{
+    grid-template-columns: repeat(2,auto);
+}
+.row3{
+    grid-template-columns: repeat(1,auto);
+}
+
+iframe{
+    height: 250px;
+    width: 400px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+

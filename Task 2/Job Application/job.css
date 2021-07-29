@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Gill Sans MT";
+  }
+  
+  body {
+    margin: 0;
+}
+.nav{
+    height: 9vh;
+    background-color: purple;
+    color: white;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.nav h2{
+    float: left;
+    margin-left: 2vw;
+}
+.nav h3{
+    float: right;
+    margin-right: 3vw;
+}
+.form{
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.7);
+    padding:30px;
+    margin-bottom: 30px;
+}
+/* form */
+.name{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    margin-left: 30px;
+}
+.name input{
+    height: 40px;
+    width:98%;
+}
+.two input[type=file]::file-selector-button{
+    height: 40px;
+    width: 150px;
+}
+.two{
+    display: grid;
+    width: 95%;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+    margin-left: 30px;
+}
+.two input,.two select{
+    height: 40px;
+    width:98%;
+}
+.two .file{
+    height: 40px;
+    width:100%;
+}
+textarea{
+    height: 60px;
+    width:100%;
+}
+span{
+    color: red;
+}
+.btn{
+    width: 100%;
+    text-align: center;
+}
+button{
+    width: 300px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 7px;
+    border: 2px solid purple;
+    color: white;
+}
+button:hover{
+    background-color: white;
+    color: purple;
+    cursor: pointer;
+    transition: 5ms all ease-out;
+}
+.footer{
+    font-family:Arial,Helvetica,sans-serif;
+    background: purple;
+    padding-top: 30px;
+    display: flex;
+    color: white;
+    padding-bottom: 25px;
+    border-top: 5px solid rgb(53, 12, 53);
+}
+
+.col1{
+    margin-left: 10%;
+}
+
+.col2{
+    margin-left: 33%;
+}
+
+.col1 i,.col2 i{
+    color:#30e8f5;
+}
+
+.col1 h3, .col2 h3 {
+    padding-bottom: 13px;
+}
+.col2 span{
+    color: white;
+}
+.col2 span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px){
+    .nav h3{
+        display: none;
+    }
+    .nav{
+        text-align: center;
+        height: 10vh;
+        padding-left: 15%;
+    }
+    .form{
+        width: 94%;
+        margin-left: 3%;
+        
+    }
+    
+    .name{
+        display: grid;
+        width: 95%;
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 12px;
+        margin-left: 5px;
+    }
+    .two{
+        display: grid;
+        width: 95%;
+        grid-template-columns: repeat(1,auto);
+        grid-gap: 15px;
+        margin-left: 5px;
+    }
+    .name input, .two input{
+        width: 100%;
+    }
+    button{
+        width: 100%;
+    }
+    .col2{
+        display: none;
+    }
+    .col1{
+        margin-left: 10px;
+    }
+    
+}
